@@ -1,9 +1,21 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
 .logo {
 	margin-left: 50px;
 }
 .navbar-a {
 	color: #fff;
+  display: inline-block;
 }
 
 .main-pic{
@@ -29,6 +41,7 @@ ul {
   display: block;
   height: 450px;
   list-style-type: none;
+  display: inline-block;
   margin: 20px;
   padding: 50px 80px 80px 80px;
   background-color: blue;
@@ -99,4 +112,8 @@ ul img.mini{
 }
 .phone{
   margin-left: 30px;
+}
+.box{
+  background-color: #fff;
+  border: darkred;
 }
